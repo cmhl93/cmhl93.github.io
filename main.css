@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    color: #985F6F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-image: url('img/main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.main > h1{
+    font-size: 4rem;
+    margin-bottom: 32px;
+    text-shadow: 0.5px 0.5px 1px #D3D3D3;
+}
+
+.main > p{
+    font-size: 2rem;
+}
+
+.social-media{
+    display: inline-block;
+    height: 5.25%;
+    width: 5.25%;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+
+.scroll{
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+.portfolio{
+    background-image: url('img/portfolio.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 5% 0 0 10%;
+}
+
+.portfolio > h1{
+    font-size: 3rem;
+    padding-left: 2.5%;
+    margin-top: 2%;
+}
+
+.work{
+    display: inline-block;
+    height: 25%;
+    width: 25%;
+    padding: 2%;
+    margin-bottom: 6%;
+    opacity: 1;
+    position: relative;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color:#4E4C67;
+    text-align: center;
+    padding: 0.5%;
+}
+
+
+.mail{
+    position: absolute;
+}
+
+.mail:hover{
+    transition: 0.25s ease-in;
+    opacity: 0.5;
+}
+
+.work:hover{
+    opacity: 0.75;
+}
+
