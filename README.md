@@ -2,6 +2,6 @@
 
 ## TO DO
 
--automate sprites
+Automate sprites []
 
--clean css
+Clean css []
