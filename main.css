@@ -63,14 +63,16 @@ a{
     .main{
         margin: 0 auto;
     }
+
     .main > h1{
-        font-size: 2.25rem;
-        margin-top: 7rem;
+        font-size: 2.5rem;
+        margin-top: 8rem;
     }    
 
     .main > p{
         font-size: 1.5rem;
         margin: 0 1.25rem;
+        padding: 1rem;
     }
 
     .social-media{
@@ -79,5 +81,30 @@ a{
         margin-top: 1rem;
     }
 
+}
+
+@media screen and (min-height: 900px){
+    
+    .main{
+        margin: auto;
+    }
+
+    .main > h1{
+        padding-top: 12rem;
+        font-size: 6rem;
+        margin: 1rem;
+    }   
+
+    .social-media{
+        height: 10%;
+        width: 10%;
+        margin: 1.5rem;
+
+    }
+
+    .mail{
+        height: 10%;
+        width: 10%;
+    }
 }
 
