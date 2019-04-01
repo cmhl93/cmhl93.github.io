@@ -85,21 +85,16 @@ a{
 
 @media screen and (min-height: 900px){
     
-    .main{
-        margin: auto;
-    }
-
     .main > h1{
         padding-top: 11rem;
         font-size: 5rem;
-        margin: 1.25rem;
+        margin: 1rem;
     }   
 
     .social-media{
         height: 10%;
         width: 10%;
         margin: 1.5rem;
-
     }
 
     .mail{
