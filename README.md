@@ -3,5 +3,3 @@
 ## TO DO
 
 Automate sprites []
-
-Clean css []
